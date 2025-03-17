@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onboarding Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="app">
+        <h1>Welcome to Our Website!</h1>
+        <button id="start-tutorial">Start Tutorial</button>
+        <div class="feature" id="feature1">
+            <p>Feature 1 - Click here to begin!</p>
+        </div>
+        <div class="feature" id="feature2">
+            <p>Feature 2 - Click here for more info!</p>
+        </div>
+        <div class="feature" id="feature3">
+            <p>Feature 3 - This is the last step!</p>
+        </div>
+    </div>
+
+    <div class="tutorial-overlay">
+        <div class="tutorial-step" id="step1">
+            <h2>Step 1: Feature 1</h2>
+            <p>Click the button to get started.</p>
+            <button class="next-step">Next</button>
+        </div>
+        <div class="tutorial-step" id="step2">
+            <h2>Step 2: Feature 2</h2>
+            <p>Click here for more information.</p>
+            <button class="next-step">Next</button>
+        </div>
+        <div class="tutorial-step" id="step3">
+            <h2>Step 3: Feature 3</h2>
+            <p>This is the last step! You are done!</p>
+            <button class="close-tutorial">Finish</button>
+        </div>
+        <div class="progress-indicator">
+            <span id="progress-text">Step 1 of 3</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
