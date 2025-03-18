@@ -10,7 +10,7 @@ $(document).ready(function() {
 
     // Show the appropriate tutorial step
     function showStep(step) {
-        $('.tutorial-step').hide(); // Hide all steps
+        $('.tutorial-step').showStep(); // Hide all steps
         $('#step' + step).fadeIn(); // Show the current step
         
         // Highlight the corresponding feature

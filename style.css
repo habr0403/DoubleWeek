@@ -5,13 +5,13 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(227, 20, 20, 0.5);
+    background-color: rgba(235, 239, 18, 0.5);
     display: grid;
     z-index: 9999;
 }
 
 .tutorial-step {
-    position: absolute;
+    position: fixed;
     background-color: rgb(213, 12, 12);
     border-radius: 8px;
     padding: 20px;
